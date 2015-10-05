@@ -9,7 +9,7 @@ body {
 div {
  text-align: center;
 }
-.hour, .minute, .second {
+#hour, #minute, #second {
   font-size: 4em;
   font-family: 'Lato', sans-serif;
   color: $txtColor;

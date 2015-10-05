@@ -4,8 +4,9 @@
   // Time function
   function clock () {
 
-    // Create Date with hour/minute/second variables
+    // Create new Date
     var today = new Date();
+    // Specify date hour/minute/second variables
     var hours = today.getHours();
     var minutes = today.getMinutes();
     var seconds = today.getSeconds();
@@ -20,8 +21,9 @@
 
   };
 
+  // Call clock Function
   clock();
-
+  // Run function clock every 1000 miliseconds
   setInterval(clock,1000);
 
 

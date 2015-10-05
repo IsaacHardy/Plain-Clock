@@ -1,1 +1,1 @@
-# Hex Clock
+# Plain Clock
